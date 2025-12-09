@@ -1,8 +1,9 @@
 # RV32I-Multi-Cycle-CPU-AMBA-APB-Peripheral
 ### AMBA(Advanced Microcontroller Bus Architecture)
 
-> ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메모리, 주변장치(IP 블록) 간 데이터를 효율적으로 주고받게 해주는 연결 규칙
 > <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
+
+> ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메모리, 주변장치(IP 블록) 간 데이터를 효율적으로 주고받게 해주는 연결 규칙
 <br>
 
 ## System Architecture
