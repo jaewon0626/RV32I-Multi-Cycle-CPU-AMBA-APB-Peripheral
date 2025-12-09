@@ -14,6 +14,7 @@
 > Master와 Slave가 같은 타이밍 규약과 신호 정의를 지켜 통신하도록 설계됨
 > AHB나 AXI 처럼 복잡한 데이터 전송보단, 단순히 레지스터에 Read/Write하는 기능에 초점을 맞춘 구조
 <br>
+
 > AXI나 AHB는 GPIO, UART, FND, TIMER 같은 저속 제어 장치에는 불필요하게 복잡, 전력 소모 ↑
 > -> SoC 전체 성능과 효율을 높이기 위해 저속 장치들은 APB 버스로 연결 
 <img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
@@ -22,7 +23,6 @@
 
 ### 2. APB 동작 방식
 <img width="743" height="344" alt="image" src="https://github.com/user-attachments/assets/838d2234-3624-4db6-b5b1-c7d453c25129" />
-
 
 #### 클록 주기 : 가장 짧은 단계의 실행 시간에 맞춰 설정할 수 있어 훨씬 짧다.
 
