@@ -4,15 +4,15 @@
 > <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
 >
 <img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
-<img width="414" height="180" alt="image" src="https://github.com/user-attachments/assets/ca16bf31-20f7-4658-b80c-4c01de4f972d" />
-
 ## System Architecture
 <img width="946" height="440" alt="Image" src="https://github.com/user-attachments/assets/6439a9a2-a5e9-457f-b57d-1f4ce0ffe0c1" />
 <br>
 
 ## 특징
-### 1. 동작 방식
-#### 각 명령어가 여러 클록 사이클에 걸쳐 실행된다.
+### 1. APB란?
+#### APB(Advanced Peripheral Bus)
+> AMBA 버스중 가장 단순한 저속용 버스 -> 저속 주변장치용 제어버스
+> AHB나 AXI 처럼 복잡한 데이터 전송보단, 단순히 레지스터에 Read/Write하는 기능에 초점을 맞춘 구조
 #### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
 <br>
 
