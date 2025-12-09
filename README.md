@@ -17,11 +17,12 @@
 > -> SoC 전체 성능과 효율을 높이기 위해 저속 장치들은 APB 버스로 연결 
 <img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
 <img width="414" height="180" alt="image" src="https://github.com/user-attachments/assets/ca16bf31-20f7-4658-b80c-4c01de4f972d" />
-
-#### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
 <br>
 
-### 2. 구성 요소
+### 2. APB 동작 방식
+<img width="743" height="344" alt="image" src="https://github.com/user-attachments/assets/838d2234-3624-4db6-b5b1-c7d453c25129" />
+
+
 #### 클록 주기 : 가장 짧은 단계의 실행 시간에 맞춰 설정할 수 있어 훨씬 짧다.
 
 #### 하드웨어 구조 : 하드웨어 유닛을 공유한다. (하나의 메모리, 하나의 ALU 등)
