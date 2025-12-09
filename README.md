@@ -16,7 +16,7 @@
 > <br>
 > AXI나 AHB는 GPIO, UART, FND, TIMER 같은 저속 제어 장치에는 불필요하게 복잡, 전력 소모 ↑ -> SoC 전체 성능과 효율을 높이기 위해 저속 장치들은 APB 버스로 연결 
 <img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
-<img width="414" height="180" alt="image" src="https://github.com/user-attachments/assets/ca16bf31-20f7-4658-b80c-4c01de4f972d" />
+<img width="723" height="221" alt="image" src="https://github.com/user-attachments/assets/dfcebd75-c139-4ae2-b79a-9e5d80485906" />
 <br>
 
 ### 2. APB 동작 방식
