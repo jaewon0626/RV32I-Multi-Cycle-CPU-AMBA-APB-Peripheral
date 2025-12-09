@@ -28,11 +28,11 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 ### 2. APB 동작 방식
 <img width="743" height="344" alt="image" src="https://github.com/user-attachments/assets/838d2234-3624-4db6-b5b1-c7d453c25129" />
 
-#### 클록 주기 : 가장 짧은 단계의 실행 시간에 맞춰 설정할 수 있어 훨씬 짧다.
+#### - 클록 주기 : 가장 짧은 단계의 실행 시간에 맞춰 설정할 수 있어 훨씬 짧다.
 
-#### 하드웨어 구조 : 하드웨어 유닛을 공유한다. (하나의 메모리, 하나의 ALU 등)
+#### - 하드웨어 구조 : 하드웨어 유닛을 공유한다. (하나의 메모리, 하나의 ALU 등)
 
-#### 제어 유닛 (Control Unit)의 특징 :
+#### - 제어 유닛 (Control Unit)의 특징 :
 ##### FSM (Finite State Machine) 기반: 멀티사이클 프로세서는 상태 기반 제어를 사용한다.
 ##### 상태 전이 : 현재 상태와 명령어 타입에 따라 다음 상태로 전이한다.
 ##### 제어 신호 생성 : 각 상태에서 필요한 제어 신호(IRWrite, PCWrite, MemRead, RegWrite, ALUSrcA, ALUSrcB 등)를 생성한다.
