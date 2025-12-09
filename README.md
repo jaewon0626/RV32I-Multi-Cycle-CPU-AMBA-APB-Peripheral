@@ -3,8 +3,6 @@
 > ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메모리, 주변장치(IP 블록) 간 데이터를 효율적으로 주고받게 해주는 연결 규칙
 > <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
 
-<img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
-
 ## System Architecture
 <img width="946" height="440" alt="Image" src="https://github.com/user-attachments/assets/6439a9a2-a5e9-457f-b57d-1f4ce0ffe0c1" />
 <br>
@@ -14,6 +12,12 @@
 #### APB(Advanced Peripheral Bus)
 > AMBA 버스중 가장 단순한 저속용 버스 -> 저속 주변장치용 제어버스
 > AHB나 AXI 처럼 복잡한 데이터 전송보단, 단순히 레지스터에 Read/Write하는 기능에 초점을 맞춘 구조
+> <br>
+> AXI나 AHB는 GPIO, UART, FND, TIMER 같은 저속 제어 장치에는 불필요하게 복잡, 전력 소모 ↑ 
+> -> SoC 전체 성능과 효율을 높이기 위해 저속 장치들은 APB 버스로 연결 
+<img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
+<img width="414" height="180" alt="image" src="https://github.com/user-attachments/assets/ca16bf31-20f7-4658-b80c-4c01de4f972d" />
+
 #### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
 <br>
 
