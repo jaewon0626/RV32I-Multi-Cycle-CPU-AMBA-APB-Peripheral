@@ -38,12 +38,12 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 > 제어 신호 생성 : 각 상태에서 필요한 제어 신호(IRWrite, PCWrite, MemRead, RegWrite, ALUSrcA, ALUSrcB 등)를 생성한다.
 > 명령어별 경로 : R-type은 4사이클, Load는 5사이클, Branch는 3사이클 등 명령어마다 다른 상태 경로를 거친다.
 
-#### 데이터패스(Datapath) :
-##### - Cycle 1 - IF : 명령어 메모리에서 명령어를 읽어 IR(Instruction Register)에 저장하고, PC를 PC + 4로 업데이트한다.
-##### - Cycle 2 - ID : IR의 명령어를 디코딩하고, 레지스터 파일에서 rs1, rs2를 읽어 임시 레지스터(A, B)에 저장합니다. 즉시값(Immediate)도 생성하여 저장한다.
-##### - Cycle 3 - EX : ALU가 A, B 레지스터 값을 사용해 연산을 수행하고 결과를 ALUOut 레지스터에 저장합니다. Branch의 경우 분기 타겟 주소를 계산한다.
-##### - Cycle 4 - MEM (Load/Store) : ALUOut의 주소를 사용해 데이터 메모리에 접근합니다. Load는 읽은 값을 MDR(Memory Data Register)에 저장하고, Store는 메모리에 쓴다.
-##### - Cycle 5 - WB (Register write 명령어만) : ALUOut 또는 MDR의 값을 레지스터 파일의 rd에 쓴다.
+#### - 데이터패스(Datapath) :
+##### Cycle 1 - IF : 명령어 메모리에서 명령어를 읽어 IR(Instruction Register)에 저장하고, PC를 PC + 4로 업데이트한다.
+##### Cycle 2 - ID : IR의 명령어를 디코딩하고, 레지스터 파일에서 rs1, rs2를 읽어 임시 레지스터(A, B)에 저장합니다. 즉시값(Immediate)도 생성하여 저장한다.
+##### Cycle 3 - EX : ALU가 A, B 레지스터 값을 사용해 연산을 수행하고 결과를 ALUOut 레지스터에 저장합니다. Branch의 경우 분기 타겟 주소를 계산한다.
+##### Cycle 4 - MEM (Load/Store) : ALUOut의 주소를 사용해 데이터 메모리에 접근합니다. Load는 읽은 값을 MDR(Memory Data Register)에 저장하고, Store는 메모리에 쓴다.
+##### Cycle 5 - WB (Register write 명령어만) : ALUOut 또는 MDR의 값을 레지스터 파일의 rd에 쓴다.
 <br>
 
 ### 3. 장단점
