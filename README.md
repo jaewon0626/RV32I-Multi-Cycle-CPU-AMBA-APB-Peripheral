@@ -1,4 +1,4 @@
-# jaewon0626-RV32I-Multi-Cycle-CPU-AMBA-APB-Peripheral
+# RV32I-Multi-Cycle-CPU-AMBA-APB-Peripheral
 
 ## System Architecture
 <img width="946" height="440" alt="Image" src="https://github.com/user-attachments/assets/6439a9a2-a5e9-457f-b57d-1f4ce0ffe0c1" />
