@@ -33,10 +33,10 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 #### - 하드웨어 구조 : 하드웨어 유닛을 공유한다. (하나의 메모리, 하나의 ALU 등)
 
 #### - 제어 유닛 (Control Unit)의 특징 :
-##### FSM (Finite State Machine) 기반: 멀티사이클 프로세서는 상태 기반 제어를 사용한다.
-##### 상태 전이 : 현재 상태와 명령어 타입에 따라 다음 상태로 전이한다.
-##### 제어 신호 생성 : 각 상태에서 필요한 제어 신호(IRWrite, PCWrite, MemRead, RegWrite, ALUSrcA, ALUSrcB 등)를 생성한다.
-##### 명령어별 경로 : R-type은 4사이클, Load는 5사이클, Branch는 3사이클 등 명령어마다 다른 상태 경로를 거친다.
+> FSM (Finite State Machine) 기반: 멀티사이클 프로세서는 상태 기반 제어를 사용한다.
+> 상태 전이 : 현재 상태와 명령어 타입에 따라 다음 상태로 전이한다.
+> 제어 신호 생성 : 각 상태에서 필요한 제어 신호(IRWrite, PCWrite, MemRead, RegWrite, ALUSrcA, ALUSrcB 등)를 생성한다.
+> 명령어별 경로 : R-type은 4사이클, Load는 5사이클, Branch는 3사이클 등 명령어마다 다른 상태 경로를 거친다.
 
 #### 데이터패스(Datapath) :
 ##### - Cycle 1 - IF : 명령어 메모리에서 명령어를 읽어 IR(Instruction Register)에 저장하고, PC를 PC + 4로 업데이트한다.
