@@ -3,6 +3,7 @@
 #### ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격
 #### CPU, 메모리, 주변장치(IP 블록) 간 데이터를 효율적으로 주고받게 해주는 연결 규칙
 <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
+<br>
 <img width="460" height="171" alt="image" src="https://github.com/user-attachments/assets/5926296e-d3e3-4ba9-8d07-8ad21ef2d4cf" />
 <img width="414" height="180" alt="image" src="https://github.com/user-attachments/assets/ca16bf31-20f7-4658-b80c-4c01de4f972d" />
 
