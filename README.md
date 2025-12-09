@@ -4,7 +4,7 @@
 > <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
 
 ## System Architecture
-<img width="946" height="440" alt="Image" src="https://github.com/user-attachments/assets/6439a9a2-a5e9-457f-b57d-1f4ce0ffe0c1" />
+<img width="1129" height="529" alt="image" src="https://github.com/user-attachments/assets/65ef64c3-8e78-4470-8cc4-88b5e2166d55" />
 <br>
 
 ## 특징
