@@ -28,6 +28,7 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 ### 2. APB 동작 방식
 <img width="743" height="344" alt="image" src="https://github.com/user-attachments/assets/838d2234-3624-4db6-b5b1-c7d453c25129" />
 
+<!--
 #### - 클록 주기 : 가장 짧은 단계의 실행 시간에 맞춰 설정할 수 있어 훨씬 짧다.
 
 #### - 하드웨어 구조 : 하드웨어 유닛을 공유한다. (하나의 메모리, 하나의 ALU 등)
@@ -59,3 +60,4 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 ##### - 명령어마다 실행 시간이 달라 타이밍 예측이 어렵다.
 ##### - 단계 간 데이터 저장을 위한 추가 레지스터가 필요하다 (IR, A, B, ALUOut, MDR)
 ##### - 디버깅이 더 복잡하다.
+-->
