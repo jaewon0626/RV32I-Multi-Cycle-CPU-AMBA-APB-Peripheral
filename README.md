@@ -14,8 +14,8 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 ## 특징
 
 ### RISC-V Multi Cycle CPU
-#### 각 명령어가 여러 클록 사이클에 걸쳐 실행된다.
-#### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
+#### - 각 명령어가 여러 클록 사이클에 걸쳐 실행된다.
+#### - 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
 <img width="423" height="169" alt="Image" src="https://github.com/user-attachments/assets/ca54bb95-6a49-4985-9e95-77513bcc294c" />
 <br>
 
