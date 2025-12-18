@@ -17,9 +17,10 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 #### 각 명령어가 여러 클록 사이클에 걸쳐 실행된다.
 #### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
 <img width="423" height="169" alt="Image" src="https://github.com/user-attachments/assets/ca54bb95-6a49-4985-9e95-77513bcc294c" />
+<br>
 
 ### APB란?
-#### APB(Advanced Peripheral Bus)
+#### - APB(Advanced Peripheral Bus)
 > AMBA 버스중 가장 단순한 저속용 버스 -> 저속 주변장치용 제어버스
 > Master와 Slave가 같은 타이밍 규약과 신호 정의를 지켜 통신하도록 설계됨
 > AHB나 AXI 처럼 복잡한 데이터 전송보단, 단순히 레지스터에 Read/Write하는 기능에 초점을 맞춘 구조
