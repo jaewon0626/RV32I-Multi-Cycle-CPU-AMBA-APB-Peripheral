@@ -12,7 +12,13 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 <br>
 
 ## 특징
-### 1. APB란?
+
+### RISC-V Multi Cycle CPU
+#### 각 명령어가 여러 클록 사이클에 걸쳐 실행된다.
+#### 각 사이클마다 한 단계씩 진행하며, 명령어마다 필요한 사이클 수가 다르다.
+<img width="423" height="169" alt="Image" src="https://github.com/user-attachments/assets/ca54bb95-6a49-4985-9e95-77513bcc294c" />
+
+### APB란?
 #### APB(Advanced Peripheral Bus)
 > AMBA 버스중 가장 단순한 저속용 버스 -> 저속 주변장치용 제어버스
 > Master와 Slave가 같은 타이밍 규약과 신호 정의를 지켜 통신하도록 설계됨
@@ -25,7 +31,7 @@ ARM에서 제안한 SoC (System-on-Chip) 내부 버스 표준 규격, CPU, 메�
 <img width="723" height="221" alt="image" src="https://github.com/user-attachments/assets/dfcebd75-c139-4ae2-b79a-9e5d80485906" />
 <br>
 
-### 2. APB 동작 방식
+#### - APB 동작 방식
 <img width="743" height="344" alt="image" src="https://github.com/user-attachments/assets/838d2234-3624-4db6-b5b1-c7d453c25129" />
 
 <!--
