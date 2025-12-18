@@ -1,4 +1,5 @@
 # RV32I-Multi-Cycle-CPU-AMBA-APB-Peripheral
+## AMBA APB 인터페이스를 RV32I Multi Cycle CPU Bus에 통합하여 UART, FND와 같은 pheripheral들과 CPU 간의 효율적인 데이터 송수신 제어 및 동작 검증
 ### AMBA(Advanced Microcontroller Bus Architecture)
 
 <img width="343" height="136" alt="image" src="https://github.com/user-attachments/assets/ed7629c2-8dd1-4600-abd1-d6f2207b666f" />
